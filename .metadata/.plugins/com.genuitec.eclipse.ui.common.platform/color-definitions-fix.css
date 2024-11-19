@@ -1023,17 +1023,6 @@ IEclipsePreferences#eclihx-ui {
 		'hx_editor_brace_color=216,216,216'
 		'hx_editor_multiline_comment_color=199,221,12'
 }
-IEclipsePreferences#goclipse {
-	preferences:
-		'syntax_highlighting_primitive_color=127,179,71'
-		'syntax_highlighting_multiline_string_color=255,198,0'
-		'syntax_highlighting_comment_color=199,221,12'
-		'syntax_highlighting_text_color=216,216,216'
-		'syntax_highlighting_keyword_color=141,203,226'
-		'syntax_highlighting_string_color=255,198,0'
-		'syntax_highlighting_value_color=127,179,71'
-		'syntax_highlighting_builtin_function_color=255,255,255'
-}
 IEclipsePreferences#jp-gr-java_conf-ussiy-app-propedit {
 	preferences:
 		'separatorColor=216,216,216'
@@ -1877,8 +1866,7 @@ IEclipsePreferences#org-eclipse-jdt-ui {
 		'semanticHighlighting.parameterVariable.italic=false'
 		'semanticHighlighting.parameterVariable.strikethrough=false'
 		'semanticHighlighting.parameterVariable.underline=false'
-		'semanticHighlighting.restrictedKeywords.bold=false'
-		'semanticHighlighting.restrictedKeywords.color=197,104,28'
+		'semanticHighlighting.recordKeyword.color=197,116,48'
 		'semanticHighlighting.staticField.bold=false'
 		'semanticHighlighting.staticField.color=239,192,144'
 		'semanticHighlighting.staticField.enabled=true'
@@ -1909,6 +1897,8 @@ IEclipsePreferences#org-eclipse-jdt-ui {
 		'semanticHighlighting.typeParameter.italic=false'
 		'semanticHighlighting.typeParameter.strikethrough=false'
 		'semanticHighlighting.typeParameter.underline=false'
+		'semanticHighlighting.varKeyword.color=197,116,48'
+		'semanticHighlighting.yieldKeyword.color=197,116,48'
 		'sourceHoverBackgroundColor=0,0,0'
 }
 IEclipsePreferences#org-eclipse-jst-jsp-ui {
@@ -2054,10 +2044,6 @@ IEclipsePreferences#org-eclipse-team-cvs-ui {
 		'pref_console_command_color=199,221,12'
 		'pref_console_error_color=210,82,82'
 }
-IEclipsePreferences#org-eclipse-tm-terminal-control {
-	preferences:
-		'TerminalPrefInvertColors=false'
-}
 IEclipsePreferences#org-eclipse-ui-editors {
 	preferences:
 		'AbstractTextEditor.Color.Background=25,29,31'
@@ -2171,7 +2157,6 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.debug.ui.console.stream.err=255,127,127'
 		'org.eclipse.debug.ui.console.stream.in=0,255,184'
 		'org.eclipse.debug.ui.console.stream.out=255,255,255'
-		'org.eclipse.egit.ui.CommitMessageCommentColor=115,130,140'
 		'org.eclipse.egit.ui.DiffAddBackgroundColor=51,81,30'
 		'org.eclipse.egit.ui.DiffAddForegroundColor=235,237,239'
 		'org.eclipse.egit.ui.DiffHeadlineBackgroundColor=25,29,31'
@@ -2193,17 +2178,8 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.emf.codegen.ui.jet.expressionForeground=152,152,255'
 		'org.eclipse.emf.codegen.ui.jet.scriptletBackground=2,3,3'
 		'org.eclipse.emf.codegen.ui.jet.scriptletForeground=235,237,239'
-		'org.eclipse.gef.color.button=55,62,67'
-		'org.eclipse.gef.color.line.foreground=55,62,67'
-		'org.eclipse.gef.color.list.background=50,57,62'
-		'org.eclipse.gef.color.list.foreground=219,222,225'
-		'org.eclipse.gef.color.list.hover.background=60,67,73'
-		'org.eclipse.gef.color.list.selected.background=78,88,95'
-		'org.eclipse.gef.color.menu.background=32,36,39'
-		'org.eclipse.gef.color.menu.foreground=219,222,225'
-		'org.eclipse.gef.color.menu.foreground.selected=90,101,109'
 		'org.eclipse.jdt.ui.ColoredLabels.inherited=143,143,191'
-		'org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight=255,128,128'
+		'org.eclipse.jdt.ui.ColoredLabels.writeaccess_highlight=52,46,35'
 		'org.eclipse.jdt.ui.Javadoc.backgroundColor=48,54,59'
 		'org.eclipse.jdt.ui.Javadoc.foregroundColor=235,237,239'
 		'org.eclipse.jdt.ui.abstractMethodInvocationHighlighting=255,255,255'
@@ -2279,6 +2255,8 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.ui.editors.lineNumberRulerColor=120,135,145'
 		'org.eclipse.ui.editors.printMarginColor=62,70,76'
 		'org.eclipse.ui.showkeys.backgroundColor=182,190,195'
+		'org.eclipse.wst.jsdt.ui.ColoredLabels.counter=0,208,255'
+		'org.eclipse.wst.jsdt.ui.ColoredLabels.decorations=181,152,86'
 		'org.eclipse.wst.jsdt.ui.abstractMethodInvocationHighlighting=255,255,255'
 		'org.eclipse.wst.jsdt.ui.annotationElementReferenceHighlighting=255,255,255'
 		'org.eclipse.wst.jsdt.ui.annotationHighlighting=143,155,163'
@@ -2326,6 +2304,10 @@ IEclipsePreferences#org-eclipse-ui-workbench {
 		'org.eclipse.wst.jsdt.ui.typeArgumentHighlighting=255,255,0'
 		'org.eclipse.wst.jsdt.ui.typeParameterHighlighting=247,173,123'
 		'org.eclipse.wst.jsdt.ui.typeVariableDeclarationHighlighting=247,173,123'
+		'org.springframework.ide.eclipse.boot.dash.AltTextDecorColor=173,216,230'
+		'org.springframework.ide.eclipse.boot.dash.MutedTextDecorColor=205,210,214'
+		'org.springframework.ide.eclipse.boot.dash.TextDecorColor=144,238,144'
+		'org.springframework.tooling.ls.eclipse.commons.STS4BootMarkerIndicationColor=54,81,25'
 		'piBorder=0,254,254'
 		'tagAttributeName=255,0,255'
 		'tagAttributeValue=212,0,255'
@@ -2780,17 +2762,6 @@ IEclipsePreferences#org-sweetlemonade-eclipse-json {
 		'colorNullEnabled=true'
 		'colorStringStyle=0'
 		'colorNumberEnabled=true'
-}
-IEclipsePreferences#org.eclipse.datatools.sqltools.sqleditor {
-	preferences:
-		'Double\ quoted\ string=0,0,0,0,0,40,161,152'
-		'Identifier=0,0,0,0,0,99,140,177'
-		'Keyword=0,0,0,0,0,197,108,29'
-		'Multi-line\ comment=0,0,0,0,0,85,110,117'
-		'Others=0,0,0,0,0,197,204,204'
-		'Single-line\ comment=0,0,0,0,0,85,110,117'
-		'Single\ quoted\ string=0,0,0,0,0,40,161,152'
-		'Type=0,0,0,0,0,197,108,29'
 }
 IEclipsePreferences#winterwell-markdown {
 	preferences:

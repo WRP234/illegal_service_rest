@@ -2,7 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
-			<item value="C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO"/>
+			<item value="C:\Users\Best\OneDrive\เอกสาร\GitHub\SSO\UAC_SSO"/>
+			<item value="C:\Users\Best\OneDrive\เอกสาร\GitHub\UAC_SSO"/>
+			<item value="C:\Users\Best\OneDrive\เอกสาร\git\XCS-API-RequestBribe"/>
+			<item value="D:\ED ผู้กระทำผิด\02_SpringBootAPI\XCS-API-RequestBribe-main"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -12,9 +15,5 @@
 			<item value="[groupId].[artifactId]-[version]"/>
 			<item value="[name]"/>
 		</list>
-	</section>
-	<section name="org.eclipse.m2e.core.pom.overview">
-	</section>
-	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
 </section>
