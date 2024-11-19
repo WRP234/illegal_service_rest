@@ -1,0 +1,10 @@
+package com.xcs.illegal.p2.request;
+
+import lombok.Data;
+
+@Data
+public class LawbreakerReq {
+	
+	private String TRACK_NO;
+
+}

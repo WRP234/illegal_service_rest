@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;UAC_SSO&apos; to &apos;XCS_illegal_service&apos;" description="Rename resource &apos;UAC_SSO&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/UAC_SSO" name="XCS_illegal_service" stamp="1731053467386" updateReferences="true"/>
+</session>

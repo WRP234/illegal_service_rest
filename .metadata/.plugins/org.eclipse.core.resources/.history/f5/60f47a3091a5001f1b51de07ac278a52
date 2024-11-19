@@ -1,0 +1,15 @@
+package com.xcs.illegal.p2.request;
+
+import lombok.Data;
+
+@Data
+public class LawbreakerReq {
+	
+	private String TRACK_NO;
+	private String OFFCODE;
+	private String OCCURRENCE_DATE;
+	private String CASE_DATE;
+	private String DUTY_NAME;
+	private String CASE_LAW_ID;
+
+}

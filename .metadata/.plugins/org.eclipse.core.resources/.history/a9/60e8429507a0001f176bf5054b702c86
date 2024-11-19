@@ -1,0 +1,9 @@
+package com.xcs.illegal.p2.dao;
+
+import com.xcs.illegal.p2.request.LawbreakerReq;
+
+public interface LawbreakerDAO {
+	
+	public Lawbreakers LawbreakergetData(LawbreakerReq req);
+
+}

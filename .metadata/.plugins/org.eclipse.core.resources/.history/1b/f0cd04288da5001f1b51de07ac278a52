@@ -1,0 +1,44 @@
+package com.xcs.illegal.p2.model;
+
+import lombok.Data;
+
+@Data
+public class Lawbreaker extends LawbreakerModel {
+	
+//	private int ID;
+//	private String TRACK_NO;
+//	private String LAWBREAKER_NO;
+	
+//	--ข้อมูลรายละเอียดจับกุม
+	private String TRACK_NO;
+	private int CASE_ID;
+	private String ACCUSER_NAME;
+	private String POSITION_NAME;
+	private String OFFCODE;
+	private String SHORT_NAME;
+	private String OCCURRENCE_DATE;
+	private String HAVE_CULPRIT;
+	private String HAVE_CULPRIT_NAME;
+	private String CASE_QUALITY;
+	private String CASE_LAST;
+//	--ข้อมูลสถานที่เกิดเหตุ
+	private String SCENE_NAME;
+	private String SCENE_NO;
+	aa.SCENE_MOO,
+	aa.SCENE_SOI,
+	aa.SCENE_ROAD,
+	aa.SCENE_SUBDISTRICT,
+	aa.SCENE_DISTRICT,
+	aa.SCENE_PROVINCE,
+	sdt.SUBDISTRICT_NAME,
+	dt.DISTRICT_NAME,
+	pv.PROVINCE_NAME,
+	aa.HAVE_CULPRIT,
+	CASE WHEN aa.HAVE_CULPRIT = 'Y' THEN 'มีตัวผู้กระทำผิด' ELSE 'ไม่มีตัวผู้กระทำผิด' END HAVE_CULPRIT_NAME,
+	CASE WHEN bi.CASE_LAST =1 THEN 'กรมสรรพสามิต' WHEN bi.CASE_LAST =2 THEN 'ศาล' ELSE 'พนักงานสอบสวน/พนักงานอัยการ' END CASE_LAST,
+	CASE WHEN bi.CASE_QUALITY =1 THEN 'เปรียบเทียบปรับ' ELSE 'ส่งฟ้องศาล' END CASE_QUALITY
+
+}
+
+
+

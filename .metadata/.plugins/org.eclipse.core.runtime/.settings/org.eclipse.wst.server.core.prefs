@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime id\="apache-tomcat-6.0.37" location\="C\:/Users/WeerapatThongdee/Documents/git.pccth/Excise_illegal/illegal_service/apache-tomcat-6.0.37/apache-tomcat-6.0.37/apache-tomcat-6.0.37" name\="apache-tomcat-6.0.37" runtime-type-id\="org.eclipse.jst.server.tomcat.runtime.60" timestamp\="0" vm-install-id\="1731058947599" vm-install-type-id\="org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType"/>\r\n</runtimes>\r\n

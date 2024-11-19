@@ -1,0 +1,10 @@
+package com.xcs.illegal.p2.dao;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class LawbreakerDAOImpl {
+	
+	private static final Logger log = LoggerFactory.getLogger(LawbreakerDAOImpl.class);
+
+}

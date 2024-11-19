@@ -1,0 +1,13 @@
+1689567087692	Rename package 'com.xcs.requestbribe.p2'
+1689567154757	Rename package 'com.xcs.requestbribe.p2.config'
+1689567207364	Rename type 'Xcs60RequestBribeP2Application'
+1689567236383	Rename package 'com.xcs.requestbribe.p2.constant'
+1689567257622	Rename package 'com.xcs.requestbribe.p2.controller'
+1689567279127	Rename package 'com.xcs.requestbribe.p2.dao'
+1689567300648	Rename package 'com.xcs.requestbribe.p2.logging'
+1689567315348	Rename package 'com.xcs.requestbribe.p2.model'
+1689567332916	Rename package 'com.xcs.requestbribe.p2.request'
+1689567349721	Rename package 'com.xcs.requestbribe.p2.response'
+1689567371334	Rename package 'com.xcs.requestbribe.p2.services'
+1689575289260	Delete element
+1689575318053	Delete element

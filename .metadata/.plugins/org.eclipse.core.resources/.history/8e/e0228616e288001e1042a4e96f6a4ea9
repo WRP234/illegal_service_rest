@@ -1,0 +1,148 @@
+package com.xcs.sso.p2.dao;
+
+import java.io.IOException;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import org.springframework.http.ResponseEntity;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import com.xcs.sso.p2.model.SSO;
+import com.xcs.sso.p2.model.SSO_request;
+import com.xcs.sso.p2.model.UAC;
+
+import java.util.Date;
+//import java.util.logging.Logger;
+
+import org.json.simple.JSONObject;
+import org.springframework.http.HttpMethod;
+import org.springframework.util.MultiValueMap;
+import org.springframework.http.HttpEntity;
+import org.springframework.web.client.RestTemplate;
+import org.springframework.http.HttpHeaders;
+import org.springframework.jdbc.support.rowset.SqlRowSet;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public class UACDao {
+	
+	private static final Logger log = LoggerFactory.getLogger(UACDao.class);
+	
+    @Autowired
+    JdbcTemplate jdbcTemplate;
+    
+    public UAC UACVerifyLogIn(final UAC request) {
+        final String sql = "select * from \"uac_useraccount\" left join \"mas_staff\" on \"uac_useraccount\".\"StaffCode\" = \"mas_staff\".\"StaffCode\" where \"uac_useraccount\".\"IsActive\" = 1 and \"uac_useraccount\".\"IsSignOn\" = 0 and \"uac_useraccount\".\"UserName\" = ? and \"uac_useraccount\".\"Password\" = ? ";
+        final SqlRowSet rs = this.jdbcTemplate.queryForRowSet(sql, new Object[] { request.getUserName(), request.getPassword() });
+        if (rs.next()) {
+            final UAC uac = new UAC();
+            uac.setUserAccountID(rs.getInt(1));
+            uac.setStaffCode(rs.getString(2));
+            uac.setRoleCode(rs.getString(3));
+            uac.setUserType(rs.getInt(4));
+            uac.setUserName(rs.getString(5));
+            uac.setPassword(rs.getString(6));
+            uac.setIsSignOn(rs.getInt(7));
+            uac.setSignOnIP(rs.getString(8));
+            uac.setApproveCode(rs.getString(9));
+            uac.setUacIsActive(rs.getInt(10));
+            uac.setPerType(rs.getInt(12));
+            uac.setTitleName(rs.getString(13));
+            uac.setFirstName(rs.getString(14));
+            uac.setLastName(rs.getString(15));
+            uac.setOperationPosCode(rs.getString(16));
+            uac.setOperationPosName(rs.getString(17));
+            uac.setManagementPosCode(rs.getString(18));
+            uac.setManagementPosName(rs.getString(19));
+            uac.setPosLevel(rs.getString(20));
+            uac.setPosLevelName(rs.getString(21));
+            uac.setRepresentationPosCode(rs.getString(22));
+            uac.setRepresentationPosName(rs.getString(23));
+            uac.setOperationDeptCode(rs.getString(24));
+            uac.setOperationDeptName(rs.getString(25));
+            uac.setUnderDeptCode(rs.getString(26));
+            uac.setUnderDeptName(rs.getString(27));
+            uac.setDeptLevel(rs.getString(28));
+            uac.setOfficeCode(rs.getString(29));
+            uac.setOfficeName(rs.getString(30));
+            uac.setOfficeShortName(rs.getString(31));
+            uac.setStatusCode(rs.getInt(32));
+            uac.setStaffIsActive(rs.getInt(33));
+            return uac;
+        }
+        return new UAC();
+    }
+    
+    public boolean UACupdSignOn(final UAC request) {
+        final String sql = "UPDATE \"uac_useraccount\" SET \"IsSignOn\" = '1', \"SignOnIP\" = ? WHERE  \"uac_useraccount\".\"UserAccountID\" = ? ";
+        final int bool = this.jdbcTemplate.update(sql, new Object[] { request.getSignOnIP(), request.getUserAccountID() });
+        return bool == 1;
+    }
+    
+    public boolean UACupdSignOut(final UAC request) {
+        final String sql = "UPDATE \"uac_useraccount\" SET \"IsSignOn\" = '0', \"SignOnIP\" = null WHERE  \"uac_useraccount\".\"UserAccountID\" = ? ";
+        final int bool = this.jdbcTemplate.update(sql, new Object[] { request.getUserAccountID() });
+        return bool == 1;
+    }
+    
+    @SuppressWarnings("unchecked")
+	public Object userAndPrivilegeInfo(final SSO request) {
+        final HttpHeaders headers = new HttpHeaders();
+        headers.set("Accept", "application/json;charset=UTF-8 ");
+        final String userName = request.getUserName();
+        final String systemId = request.getSystemID();
+        final String uri = "http://webtest.excise.go.th/edssows/ldap/userAndPrivilegeInformation?userID=" + userName + "&systemID=" + systemId + "";
+        final RestTemplate restTemplate = new RestTemplate();
+        final HttpEntity<Object> entity = (HttpEntity<Object>)new HttpEntity((MultiValueMap)headers);
+        System.out.println("PriviEntity : " + entity);
+        return restTemplate.exchange(uri, HttpMethod.GET, (HttpEntity)entity, (Class)String.class, new Object[0]);
+    }
+    
+    public Object eofficeInfo(final SSO request) {
+        final HttpHeaders headers = new HttpHeaders();
+        headers.set("Content-Type", "application/json");
+        final JSONObject obj = new JSONObject();
+        obj.put((Object)"Username", (Object)request.getUserName());
+        obj.put((Object)"Password", (Object)request.getPassword());
+        obj.put((Object)"SystemID", (Object)request.getSystemID());
+        obj.put((Object)"RequestData", request.getRequestData());
+        final String uri = "http://uat.eoffice.excise.go.th:7003/EOfficeWS/HrstPersonInformation";
+        final RestTemplate restTemplate = new RestTemplate();
+        final HttpEntity<Object> entity = (HttpEntity<Object>)new HttpEntity((Object)obj, (MultiValueMap)headers);
+        final Date date = new Date();
+        System.out.println("EoffEntity ===>>>>>> " + request.getRequestData() + " " + date);
+        System.out.println("entity ===>>>>>> " + entity);
+        return restTemplate.exchange("http://uat.eoffice.excise.go.th:7003/EOfficeWS/HrstPersonInformation", HttpMethod.POST, (HttpEntity)entity, (Class)String.class, new Object[0]);
+    }
+    
+    @SuppressWarnings("unchecked")
+	public Object LDPAGAuthen(final SSO_request request) throws JsonProcessingException, IOException {
+        final String userName = request.getUserName();
+        final String Password = request.getPassword();
+        final HttpHeaders headers = new HttpHeaders();
+        headers.set("Content-Type", "text/xml");
+        final String uri = "http://192.168.3.92:5080/LDAPGateway/LDPAGAuthenAndGetUserInfoService?wsdl";
+        final RestTemplate restTemplate = new RestTemplate();
+        final String SOAP_BODY = 
+        		"<Envelope xmlns=\"http://schemas.xmlsoap.org/soap/envelope/\"> \r\n "
+        		+ "<Body> \r\n "
+        		+ "<RequestObj xmlns=\"http://dexsrvint.excise.go.th/schema/AuthenAndGetUserInfo\"> \r\n "
+        		+ "<userId>" + userName + "</userId> \r\n "
+        		+ "<password>" + Password + "</password> \r\n "
+        		+ "</RequestObj> \r\n "
+        		+ "</Body> \r\n "
+        		+ "</Envelope>";
+        final HttpEntity<String> entity = (HttpEntity<String>)new HttpEntity((Object)SOAP_BODY, (MultiValueMap)headers);
+        final ResponseEntity<String> xmlRecords = (ResponseEntity<String>)restTemplate.exchange("http://192.168.3.92:5080/LDAPGateway/LDPAGAuthenAndGetUserInfoService?wsdl", HttpMethod.POST, (HttpEntity)entity, (Class)String.class, new Object[0]);
+        final Date date = new Date();
+        System.out.println("LDPAG ===>>>>>> " + userName + " " + date);
+        final XmlMapper xmlMapper = new XmlMapper();
+        final JsonNode node = xmlMapper.readTree((String)xmlRecords.getBody());
+        final ObjectMapper jsonMapper = new ObjectMapper();
+        final String json = jsonMapper.writeValueAsString((Object)node);
+        return json;
+    }
+}

@@ -1,0 +1,13 @@
+package com.xcs.illegal.p2.dao;
+
+import com.xcs.illegal.p2.model.Lawbreaker;
+import com.xcs.illegal.p2.request.LawbreakerReq;
+
+public interface LawbreakerDAO {
+	
+	public static Lawbreaker LawbreakergetData(LawbreakerReq req) {
+		// TODO Auto-generated method stub
+//		return null;
+	}
+
+}

@@ -1,0 +1,27 @@
+server.port = 1112
+server.servlet.context-path=/XCS60_illegal
+
+# ===============================
+# = Oracle configurations
+# ===============================
+
+#PCC
+#spring.datasource.url=jdbc:oracle:thin:@10.11.1.89:1521/eddb1nl
+#spring.datasource.username=xcs_mob
+#spring.datasource.password=xcs123
+
+#ED_UAT_DB_Old
+spring.datasource.url=jdbc:oracle:thin:@192.168.3.40:1521/db3uat3
+spring.datasource.username=illegal
+spring.datasource.password=ill123
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+##ED_Prod_DB_Old
+#spring.datasource.url=jdbc:oracle:thin:@edrac-scan.excise.go.th:1521/eddb4p
+#spring.datasource.username=illegal
+#spring.datasource.password=ill2560
+#spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+logging.level.root=WARN
+logging.level.org.springframework.web=ERROR
+logging.level.com.xcs.compare=INFO

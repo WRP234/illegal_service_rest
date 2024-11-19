@@ -1,0 +1,886 @@
+2566-07-10 14:40:45,454 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2566-07-10 14:41:03,381 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:XCS60_REQUESTBRIBE_P2:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-10 14:41:07,354 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-10 14:41:07,355 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:41:07,364 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:41:07,365 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-10 14:41:12,517 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 11 sec
+2566-07-10 14:41:20,494 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-10 14:41:21,761 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:XCS60_REQUESTBRIBE_P2:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-10 14:41:23,204 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-10 14:41:23,204 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:41:23,204 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:41:23,205 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-10 14:41:25,457 [Worker-13: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-10 14:41:25,471 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2566-07-10 14:41:28,640 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:41:28,640 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:41:28,647 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:41:28,683 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:41:28,691 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 14:41:28,694 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:41:28,694 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:41:28,694 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 14:41:28,696 [Worker-5: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-10 14:41:28,697 [Worker-5: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-10 14:41:28,704 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:41:28,705 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:43:48,787 [Worker-7: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO
+2566-07-10 14:43:48,789 [Worker-7: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2566-07-10 14:43:50,757 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:43:50,757 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:43:50,760 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:43:50,761 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:43:50,764 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 14:43:50,765 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:43:50,765 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:43:50,765 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 14:43:50,765 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-10 14:43:50,765 [Worker-11: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-10 14:43:50,768 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:43:50,768 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:50:34,849 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:50:34,850 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:50:34,851 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:50:34,859 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:50:34,860 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 14:50:34,862 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:50:34,862 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:50:34,862 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 14:52:05,562 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:52:05,562 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:52:05,562 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:52:05,568 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:52:05,569 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 14:52:05,571 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:52:05,571 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:52:05,571 [Worker-21: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 14:56:39,572 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2566-07-10 14:56:52,783 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-10 14:56:54,793 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:XCS60_REQUESTBRIBE_P2:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-10 14:56:57,245 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-10 14:56:57,245 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:56:57,245 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:56:57,246 [Worker-26: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-10 14:57:00,491 [Worker-26: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-10 14:57:00,512 [Worker-26: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2566-07-10 14:57:04,706 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:57:04,706 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:57:04,716 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:57:04,758 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:57:04,768 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 14:57:04,772 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:57:04,773 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:57:04,773 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 14:57:04,774 [Worker-9: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-10 14:57:04,775 [Worker-9: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-10 14:57:04,782 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:57:04,783 [Worker-9: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:57:19,876 [Worker-9: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO
+2566-07-10 14:57:19,877 [Worker-9: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2566-07-10 14:57:21,659 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:57:21,659 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:57:21,661 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:57:21,664 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:57:21,666 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 14:57:21,668 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:57:21,668 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:57:21,668 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 14:57:21,669 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-10 14:57:21,669 [Worker-8: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-10 14:57:21,671 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:57:21,671 [Worker-8: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:59:10,032 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-10 14:59:10,425 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:XCS60_REQUESTBRIBE_P2:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-10 14:59:11,203 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-10 14:59:11,204 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:59:11,204 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 14:59:11,204 [Worker-30: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-10 14:59:12,142 [Worker-30: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-10 14:59:12,148 [Worker-30: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2566-07-10 14:59:14,222 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:59:14,222 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:59:14,223 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:59:14,239 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 14:59:14,240 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 14:59:14,243 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:59:14,243 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 14:59:14,243 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 14:59:14,243 [Worker-15: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-10 14:59:14,243 [Worker-15: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-10 14:59:14,246 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 14:59:14,246 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:04:05,307 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:04:05,307 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:04:05,309 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:04:05,323 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:04:05,323 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:04:05,325 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:04:05,325 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:04:05,325 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:08:11,900 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:08:11,901 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:08:11,901 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:08:11,908 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:08:11,908 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:08:11,910 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:08:11,910 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:08:11,910 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:08:44,723 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:08:44,723 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:08:44,724 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:08:44,731 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:08:44,732 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:08:44,733 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:08:44,733 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:08:44,733 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:12:58,009 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:12:58,009 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:12:58,009 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:12:58,016 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:12:58,017 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:12:58,018 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:12:58,019 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:12:58,019 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:13:45,400 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:13:45,400 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:13:45,401 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:13:45,406 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:13:45,407 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:13:45,409 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:13:45,409 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:13:45,409 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:14:06,648 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:14:06,648 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:14:06,648 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:14:06,653 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:14:06,654 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:14:06,656 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:14:06,656 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:14:06,656 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:14:54,746 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:14:54,746 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:14:54,747 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:14:54,750 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:14:54,751 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:14:54,752 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:14:54,752 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:14:54,752 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:15:14,664 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:15:14,665 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:15:14,665 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:15:14,672 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:15:14,673 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:15:14,675 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:15:14,675 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:15:14,675 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:27:41,120 [Worker-6: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2566-07-10 15:28:22,546 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:28:22,547 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:28:22,552 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:28:22,595 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:28:22,595 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:28:22,599 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:28:22,599 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:28:22,599 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:28:51,055 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:28:51,056 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:28:51,058 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:28:51,080 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:28:51,080 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:28:51,083 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:28:51,084 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:28:51,084 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:29:12,887 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:29:12,887 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:29:12,888 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:29:12,904 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:29:12,905 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:29:12,908 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:29:12,908 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:29:12,908 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:29:55,078 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:29:55,078 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:29:55,078 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:29:55,090 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:29:55,090 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:29:55,092 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:29:55,092 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:29:55,092 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:30:28,828 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:30:28,828 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:30:28,828 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:30:28,840 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:30:28,840 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:30:28,843 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:30:28,843 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:30:28,843 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:30:39,078 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-10 15:30:39,634 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:XCS60_REQUESTBRIBE_P2:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-10 15:30:40,699 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-10 15:30:40,699 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 15:30:40,699 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-10 15:30:40,699 [Worker-1: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-10 15:30:41,157 [Worker-1: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-10 15:30:41,171 [Worker-1: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2566-07-10 15:30:41,995 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:30:41,995 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:30:41,996 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:30:42,014 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:30:42,017 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:30:42,019 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:30:42,020 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:30:42,020 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:30:42,020 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-10 15:30:42,020 [Worker-2: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-10 15:30:42,025 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:30:42,025 [Worker-2: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:31:33,889 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:31:33,889 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:31:33,890 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:31:33,910 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:31:33,911 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:31:33,914 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:31:33,914 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:31:33,914 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:33:33,784 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:33:33,784 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:33:33,785 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:33:33,813 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:33:33,813 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:33:33,816 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:33:33,816 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:33:33,816 [Worker-3: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:34:36,311 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:34:36,311 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:34:36,311 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:34:36,332 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:34:36,332 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:34:36,334 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:34:36,334 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:34:36,335 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:35:45,460 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:35:45,460 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:35:45,461 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:35:45,475 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:35:45,475 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:35:45,477 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:35:45,477 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:35:45,477 [Worker-20: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:35:56,094 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:35:56,094 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:35:56,094 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:35:56,107 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:35:56,107 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:35:56,109 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:35:56,109 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:35:56,109 [Worker-13: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:44:16,662 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:44:16,662 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:44:16,662 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:44:16,679 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:44:16,680 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:44:16,683 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:44:16,683 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:44:16,683 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:45:52,609 [Worker-27: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:XCS60_REQUESTBRIBE_P2:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-10 15:45:53,683 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:45:53,684 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:45:53,686 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-10 15:45:53,687 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-10 15:45:53,689 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:45:53,689 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:45:53,689 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:45:53,689 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-10 15:45:53,689 [Worker-27: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-10 15:45:53,692 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:45:53,692 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:45:55,302 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:45:55,302 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:45:55,303 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:45:55,319 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:45:55,323 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:45:55,324 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:45:55,324 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:45:55,324 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:47:11,291 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:47:11,291 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:47:11,292 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:47:11,313 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:47:11,314 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:47:11,316 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:47:11,316 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:47:11,317 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:47:28,726 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:47:28,726 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:47:28,726 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:47:28,732 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:47:28,732 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:47:28,734 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:47:28,734 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:47:28,734 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-10 15:47:35,558 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:47:35,558 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:47:35,559 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:47:35,574 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-10 15:47:35,575 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-10 15:47:35,576 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-10 15:47:35,577 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-10 15:47:35,577 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 10:44:52,607 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2566-07-17 10:55:54,540 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 10:55:54,544 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 10:55:54,548 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 10:55:54,566 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 10:55:54,566 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 10:55:54,569 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 10:55:54,569 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 10:55:54,569 [Worker-29: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:02:07,479 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:02:07,480 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:02:07,482 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:02:07,500 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:02:07,500 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:02:07,502 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:02:07,502 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:02:07,502 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:05:06,372 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 11:05:07,722 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:05:07,722 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:05:07,724 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:05:07,725 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:05:07,727 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:05:07,727 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:05:07,727 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:05:07,727 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 11:05:07,728 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 11:05:07,732 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:05:07,732 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:05:27,636 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 11:05:28,460 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:05:28,460 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:05:28,462 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:05:28,463 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:05:28,465 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:05:28,465 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:05:28,465 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:05:28,465 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 11:05:28,465 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 11:05:28,468 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:05:28,468 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:06:02,729 [Worker-39: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 11:06:03,470 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:06:03,471 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:06:03,472 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:06:03,473 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:06:03,474 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:06:03,474 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:06:03,474 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:06:03,475 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 11:06:03,475 [Worker-39: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 11:06:03,477 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:06:03,477 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:06:23,300 [Worker-36: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 11:06:23,993 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:06:23,993 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:06:23,995 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:06:23,995 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 11:06:23,997 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:06:23,997 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:06:23,997 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:06:23,998 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 11:06:23,998 [Worker-36: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 11:06:24,001 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:06:24,002 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:08:58,322 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-17 11:08:58,781 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 11:08:59,644 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-17 11:08:59,644 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 11:08:59,645 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 11:08:59,645 [Worker-37: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-17 11:09:00,375 [Worker-37: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-17 11:09:00,389 [Worker-37: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2566-07-17 11:09:01,473 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:09:01,473 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:09:01,473 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:09:01,507 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:09:01,511 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:09:01,514 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:09:01,514 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:09:01,514 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:09:01,514 [Worker-46: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 11:09:01,514 [Worker-46: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 11:09:01,517 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:09:01,517 [Worker-46: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:09:11,122 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-17 11:09:11,470 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 11:09:12,297 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-17 11:09:12,298 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 11:09:12,298 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 11:09:12,298 [Worker-42: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-17 11:09:12,840 [Worker-42: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-17 11:09:12,846 [Worker-42: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2566-07-17 11:09:13,715 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:09:13,716 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:09:13,716 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:09:13,734 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:09:13,747 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:09:13,750 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:09:13,750 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:09:13,750 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:09:13,750 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 11:09:13,750 [Worker-38: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 11:09:13,754 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:09:13,754 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:11:28,212 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:11:28,212 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:11:28,214 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:11:28,220 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:11:28,221 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:11:28,222 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:11:28,222 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:11:28,222 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:12:35,146 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:12:35,146 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:12:35,147 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:12:35,154 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:12:35,154 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:12:35,156 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:12:35,156 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:12:35,156 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:13:27,894 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:13:27,894 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:13:27,894 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:13:27,905 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:13:27,906 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:13:27,908 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:13:27,908 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:13:27,908 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:13:56,714 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:13:56,714 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:13:56,715 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:13:56,720 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:13:56,720 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:13:56,722 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:13:56,722 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:13:56,722 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:14:17,992 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:14:17,992 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:14:17,992 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:14:17,997 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:14:17,998 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:14:17,999 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:14:17,999 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:14:17,999 [Worker-53: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:14:39,489 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:14:39,489 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:14:39,490 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:14:39,496 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:14:39,497 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:14:39,499 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:14:39,499 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:14:39,499 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:15:00,979 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:00,979 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:00,980 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:00,984 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:00,985 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:15:00,987 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:00,987 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:00,987 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:15:15,775 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:15,775 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:15,776 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:15,781 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:15,782 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:15:15,784 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:15,784 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:15,784 [Worker-52: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:15:33,203 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:33,203 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:33,203 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:33,207 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:33,208 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:15:33,209 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:33,209 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:33,209 [Worker-55: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:15:50,053 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:50,053 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:50,054 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:50,079 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:15:50,079 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:15:50,082 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:15:50,082 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:15:50,082 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:16:11,664 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:16:11,664 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:16:11,664 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:16:11,669 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:16:11,669 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:16:11,670 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:16:11,670 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:16:11,670 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:17:02,178 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-17 11:17:02,488 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 11:17:03,262 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-17 11:17:03,262 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 11:17:03,262 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 11:17:03,262 [Worker-52: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-17 11:17:03,680 [Worker-52: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-17 11:17:03,685 [Worker-52: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2566-07-17 11:17:04,496 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:17:04,496 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:17:04,496 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:17:04,514 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:17:04,516 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:17:04,518 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:17:04,518 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:17:04,518 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 11:17:04,518 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 11:17:04,518 [Worker-40: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 11:17:04,520 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:17:04,520 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:27:55,461 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2566-07-17 11:32:15,541 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:32:15,542 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:32:15,545 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:32:15,565 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 11:32:15,565 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 11:32:15,567 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 11:32:15,567 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 11:32:15,567 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:18:04,394 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:18:04,394 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:18:04,398 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:18:04,415 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:18:04,416 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:18:04,419 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:18:04,419 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:18:04,419 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:22:42,087 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:22:42,087 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:22:42,088 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:22:42,093 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:22:42,093 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:22:42,096 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:22:42,096 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:22:42,096 [Worker-41: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:22:53,231 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:22:53,231 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:22:53,232 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:22:53,248 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:22:53,248 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:22:53,251 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:22:53,251 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:22:53,251 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:28:09,687 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:28:09,689 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:28:09,690 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:28:09,701 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:28:09,701 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:28:09,704 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:28:09,705 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:28:09,705 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:28:38,190 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:28:38,191 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:28:38,191 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:28:38,199 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:28:38,200 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:28:38,203 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:28:38,203 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:28:38,203 [Worker-42: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:28:44,580 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-17 13:28:45,758 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 13:28:49,041 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-17 13:28:49,042 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 13:28:49,043 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 13:28:49,044 [Worker-50: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-17 13:28:50,403 [Worker-50: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-17 13:28:50,419 [Worker-50: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2566-07-17 13:28:52,089 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:28:52,089 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:28:52,090 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:28:52,145 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:28:52,154 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:28:52,165 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:28:52,166 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:28:52,166 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:28:52,167 [Worker-51: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 13:28:52,168 [Worker-51: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 13:28:52,176 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:28:52,177 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:34:12,167 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:34:12,167 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:34:12,169 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:34:12,178 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:34:12,179 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:34:12,181 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:34:12,181 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:34:12,181 [Worker-57: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:37:40,212 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:37:40,212 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:37:40,213 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:37:40,225 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:37:40,226 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:37:40,228 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:37:40,228 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:37:40,228 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 13:38:02,548 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:38:02,548 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:38:02,548 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:38:02,563 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 13:38:02,563 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 13:38:02,565 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 13:38:02,565 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 13:38:02,565 [Worker-60: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:04:33,667 [Worker-70: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:04:36,248 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:04:36,248 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:04:36,256 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:04:36,257 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:04:36,261 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:04:36,261 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:04:36,262 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:04:36,548 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:04:36,548 [Worker-70: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:04:36,553 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:04:36,554 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:04:38,899 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:04:38,900 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:04:38,901 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:04:38,929 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:04:38,934 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:04:38,937 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:04:38,937 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:04:38,937 [Worker-68: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:06:49,225 [Worker-54: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:06:51,153 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:06:51,153 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:06:51,158 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:06:51,159 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:06:51,162 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:06:51,162 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:06:51,162 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:06:51,162 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:06:51,162 [Worker-54: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:06:51,166 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:06:51,166 [Worker-54: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:06:53,508 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:06:53,508 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:06:53,509 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:06:53,539 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:06:53,544 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:06:53,546 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:06:53,546 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:06:53,546 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:07:42,845 [Worker-70: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO
+2566-07-17 14:07:42,846 [Worker-70: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2566-07-17 14:07:46,388 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:07:46,389 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:07:46,389 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:07:46,392 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:07:46,396 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:07:46,398 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:07:46,398 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:07:46,398 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:07:46,398 [Worker-73: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:07:46,398 [Worker-73: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:07:46,402 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:07:46,402 [Worker-73: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:07:55,186 [Worker-65: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-17 14:07:55,734 [Worker-65: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:07:57,407 [Worker-65: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-17 14:07:57,407 [Worker-65: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 14:07:57,408 [Worker-65: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 14:07:57,408 [Worker-65: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-17 14:07:58,193 [Worker-65: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-17 14:07:58,202 [Worker-65: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2566-07-17 14:07:59,709 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:07:59,710 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:07:59,710 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:07:59,749 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:07:59,754 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:07:59,757 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:07:59,757 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:07:59,757 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:07:59,758 [Worker-65: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:07:59,758 [Worker-65: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:07:59,763 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:07:59,764 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:11:59,043 [Worker-77: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:12:00,147 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:00,148 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:12:00,153 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:12:00,153 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:12:00,156 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:00,156 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:12:00,156 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:12:00,157 [Worker-77: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:12:00,157 [Worker-77: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:12:00,160 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:00,160 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:12:02,208 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:02,208 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:12:02,213 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:12:02,236 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:12:02,240 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:12:02,243 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:02,243 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:12:02,243 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:12:42,055 [Worker-80: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-17 14:12:42,469 [Worker-80: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:12:43,457 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-17 14:12:43,457 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 14:12:43,457 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 14:12:43,458 [Worker-80: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-17 14:12:44,361 [Worker-80: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-17 14:12:44,369 [Worker-80: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2566-07-17 14:12:45,922 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:45,922 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:12:45,924 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:12:45,977 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:12:45,984 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:12:45,990 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:45,990 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:12:45,990 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:12:45,990 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:12:45,990 [Worker-79: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:12:46,001 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:12:46,001 [Worker-79: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:13:17,434 [Worker-75: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO
+2566-07-17 14:13:17,434 [Worker-75: Launching Executing clean in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2566-07-17 14:13:19,826 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:13:19,826 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:13:19,829 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:13:19,832 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:13:19,835 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:13:19,837 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:13:19,837 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:13:19,838 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:13:19,838 [Worker-65: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:13:19,838 [Worker-65: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:13:19,842 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:13:19,842 [Worker-65: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:13:29,201 [Worker-84: Launching Executing test in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO
+2566-07-17 14:13:29,201 [Worker-84: Launching Executing test in C__Users_Best_OneDrive_เอกสาร_GitHub_illegal_sso_UAC_SSO] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B test
+2566-07-17 14:13:38,809 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:13:38,809 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:13:38,809 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:13:38,821 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:13:38,822 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:13:38,824 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:13:38,824 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:13:38,824 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:14:34,570 [Worker-78: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:14:35,461 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:14:35,461 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:14:35,463 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:14:35,464 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:14:35,466 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:14:35,466 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:14:35,466 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:14:35,466 [Worker-78: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:14:35,466 [Worker-78: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:14:35,469 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:14:35,469 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:14:37,532 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:14:37,532 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:14:37,539 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:14:37,576 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:14:37,584 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:14:37,587 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:14:37,587 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:14:37,587 [Worker-78: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:15:05,990 [Worker-80: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:15:06,648 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:06,649 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:06,651 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:15:06,652 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:15:06,654 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:06,654 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:06,654 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:15:06,654 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:15:06,654 [Worker-80: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:15:06,657 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:06,657 [Worker-80: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:33,217 [Worker-83: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:15:34,317 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:34,318 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:34,321 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:15:34,321 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:15:34,325 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:34,325 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:34,325 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:15:34,325 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:15:34,325 [Worker-83: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:15:34,328 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:34,328 [Worker-83: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:36,108 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:36,108 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:36,112 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:15:36,134 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:15:36,137 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:15:36,139 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:36,139 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:36,140 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:15:47,499 [Worker-75: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:15:48,932 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:48,932 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:48,936 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:15:48,936 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:15:48,940 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:48,940 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:48,941 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:15:48,941 [Worker-75: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:15:48,941 [Worker-75: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:15:48,945 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:48,945 [Worker-75: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:50,836 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:50,837 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:50,843 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:15:50,863 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:15:50,867 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:15:50,869 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:15:50,869 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:15:50,869 [Worker-82: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:16:35,300 [Worker-81: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:16:35,980 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:35,981 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:16:35,984 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:16:35,985 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2566-07-17 14:16:35,986 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:35,986 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:16:35,986 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:16:35,986 [Worker-81: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:16:35,986 [Worker-81: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:16:35,988 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:35,988 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:16:37,698 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:37,698 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:16:37,703 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:16:37,721 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:16:37,725 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:16:37,725 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:37,726 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:16:37,727 [Worker-81: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:16:51,677 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2566-07-17 14:16:52,352 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xcs:UAC_SSO-040419-8086:2.4.0 @ C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\pom.xml.
+2566-07-17 14:16:53,738 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/main/java
+2566-07-17 14:16:53,739 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 14:16:53,739 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /UAC_SSO/src/main/resources
+2566-07-17 14:16:53,739 [Worker-79: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /UAC_SSO/src/test/java
+2566-07-17 14:16:54,652 [Worker-79: Updating Maven Project] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for UAC_SSO
+2566-07-17 14:16:54,660 [Worker-79: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 2 sec
+2566-07-17 14:16:55,853 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:55,853 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:16:55,854 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:16:55,893 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2566-07-17 14:16:55,898 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - The encoding used to copy filtered properties files have not been set. This means that the same encoding will be used to copy filtered properties files as when copying other filtered resources. This might not be what you want! Run your build with --debug to see which files might be affected. Read more at https://maven.apache.org/plugins/maven-resources-plugin/examples/filtering-properties-files.html
+2566-07-17 14:16:55,902 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:55,902 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 14:16:55,902 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Best\OneDrive\เอกสาร\GitHub\illegal_sso\UAC_SSO\src\test\resources
+2566-07-17 14:16:55,903 [Worker-77: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of UAC_SSO
+2566-07-17 14:16:55,903 [Worker-77: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for UAC_SSO
+2566-07-17 14:16:55,908 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2566-07-17 14:16:55,908 [Worker-77: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2566-07-17 16:52:18,417 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

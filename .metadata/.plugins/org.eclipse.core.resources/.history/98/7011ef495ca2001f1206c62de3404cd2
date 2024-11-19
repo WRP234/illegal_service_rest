@@ -1,0 +1,63 @@
+package com.xcs.illegal.p2.model;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Data;
+
+@Data
+public class Lawbreaker extends LawbreakerModel {
+	
+//	@JsonProperty ("ID")
+//	private int ID;
+//	@JsonProperty ("TRACK_NO")
+//	private String TRACK_NO;
+//	@JsonProperty ("LAWBREAKER_NO")
+//	private String LAWBREAKER_NO;
+	private int ID;
+	private String TRACK_NO;
+	private String LAWBREAKER_NO;
+//	private String LAWBREAKER_ID_CARD;
+//	private String LAWBREAKER_PASSPORT;
+//	private String FIRST_NAME;
+//	private String MIDDLE_NAME;
+//	private String LAST_NAME;
+//	private String ADDRESS_NO;
+//	private String SOI;
+//	private String ROAD;
+//	private String MOO;
+//	private String SUBDISTRICT;
+//	private String DISTRICT;
+//	private String PROVINCE;
+//	private String NATIONALITY_ID;
+//	private String RACE_ID;
+//	private String CAREER;
+//	private String AGE;
+//	private String FATHER_NAME;
+//	private String MOTHER_NAME;
+//	private String PAID_TIME_OFF;
+//	private String INVCODE;
+//	private String FINE;
+//	private String BOOK_NO;
+//	private String INV_NO;
+//	private String ISCANCEL;
+//	private String CANCEL_DATE;
+//	private String CANCEL_BY;
+//	private String CREATE_BY;
+//	private String CREATE_ON;
+//	private String UPDATE_BY;
+//	private String UPDATE_ON;
+//	private String TITLE_CODE;
+//	private String SEX;
+//	private String BIRTH_DATE;
+//	private String OTHER_NAME;
+//	private String EXCISE_REG_NO;
+//	private String CORPORATION_CODE;
+//	private String COMPANY_TITLE_CODE;
+//	private String COMPANY_NAME;
+//	private String PAPER_NO;
+//	private String ISMISTAKE;
+//	private String ISMISTAKE_DESC;
+
+}
+
+
+

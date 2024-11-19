@@ -1,0 +1,67 @@
+package com.xcs.illegal.p2.dao;
+
+
+import org.springframework.transaction.annotation.Transactional;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.ResultSetExtractor;
+import org.springframework.jdbc.core.RowMapper;
+import org.springframework.stereotype.Service;
+
+import com.xcs.illegal.p2.model.Lawbreaker;
+import com.xcs.illegal.p2.request.LawbreakerReq;
+
+@Service
+@Transactional
+public class LawbreakerDAOImpl extends LawbreakerExt implements LawbreakerDAO{
+	
+	private static final Logger log = LoggerFactory.getLogger(LawbreakerDAOImpl.class);
+	
+	@Override
+	public List<Lawbreaker> LawbreakergetData(LawbreakerReq req) {
+		
+		StringBuilder sqlBuilder = new StringBuilder()
+				.append("SELECT * "+
+						"FROM ILLEGAL.APPLICATION_ARREST_LAWBREAKER aal");
+		sqlBuilder.append(" WHERE TRACK_NO = '"+req.getTRACK_NO()+"'");
+		
+		log.info("[SQL] : "+sqlBuilder.toString());
+		
+//		return getJdbcTemplate() .query(sqlBuilder.toString(), new ResultSetExtractor<Lawbreaker>() {
+//			public List<Lawbreaker> extractData(ResultSet rs) throws SQLException,DataAccessException {
+//				if (rs.next()) {
+//					List<Lawbreaker> item = new Lawbreaker();
+//					item.setID(rs.getInt("ID"));
+//					item.setTRACK_NO(rs.getString("TRACK_NO"));
+//					item.setLAWBREAKER_NO(rs.getString("LAWBREAKER_NO"));
+//					return item;
+//				}
+//				return null;
+//			}
+//		});
+		
+		@SuppressWarnings("unchecked")
+		List<Lawbreaker> dataList = getJdbcTemplate().query(sqlBuilder.toString(), new RowMapper() {
+
+			@Override
+			public  Lawbreaker mapRow(ResultSet rs, int rowNum) throws SQLException {
+				// TODO Auto-generated method stub
+				Lawbreaker item = new Lawbreaker();
+				item.setID(rs.getInt("ID"));
+				item.setTRACK_NO(rs.getString("TRACK_NO"));
+				item.setLAWBREAKER_NO(rs.getString("LAWBREAKER_NO"));
+				return item;
+			}
+			
+		});
+		return dataList;
+	}
+	
+	
+}

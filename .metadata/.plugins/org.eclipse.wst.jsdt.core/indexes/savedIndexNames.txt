@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\Users\WeerapatThongdee\Documents\git.pccth\Excise_illegal\illegal_service\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1313493424.index
+2098586593.index
+2129664686.index
+509487925.index
+3937782805.index
+1009066240.index

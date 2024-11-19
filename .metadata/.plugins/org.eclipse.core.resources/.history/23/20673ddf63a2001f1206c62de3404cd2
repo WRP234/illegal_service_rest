@@ -1,0 +1,88 @@
+package com.xcs.illegal.p2.dao;
+
+
+import org.springframework.transaction.annotation.Transactional;
+
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.dao.DataAccessException;
+import org.springframework.jdbc.core.ResultSetExtractor;
+import org.springframework.stereotype.Service;
+
+import com.xcs.illegal.p2.model.Lawbreaker;
+import com.xcs.illegal.p2.request.LawbreakerReq;
+
+@Service
+@Transactional
+public class LawbreakerDAOImpl extends LawbreakerExt implements LawbreakerDAO{
+	
+	private static final Logger log = LoggerFactory.getLogger(LawbreakerDAOImpl.class);
+	
+	@Override
+	public Lawbreaker LawbreakergetData(LawbreakerReq req) {
+		
+		StringBuilder sqlBuilder = new StringBuilder()
+				.append("SELECT * "+
+						"FROM ILLEGAL.APPLICATION_ARREST_LAWBREAKER aal");
+		sqlBuilder.append(" WHERE TRACK_NO = '"+req.getTRACK_NO()+"'");
+		
+		log.info("[SQL] : "+sqlBuilder.toString());
+		
+		return getJdbcTemplate() .query(sqlBuilder.toString(), new ResultSetExtractor<Lawbreaker>() {
+			public Lawbreaker extractData(ResultSet rs) throws SQLException,DataAccessException {
+				if (rs.next()) {
+					Lawbreaker item = new Lawbreaker();
+					item.setID(rs.getInt("ID"));
+					item.setTRACK_NO(rs.getString("TRACK_NO"));
+					item.setLAWBREAKER_NO(rs.getString("LAWBREAKER_NO"));
+					return item;
+				}
+				return null;
+			}
+		});
+		
+//		@SuppressWarnings("unchecked")
+//		List<ArrestList> dataList = getJdbcTemplate().query(_tempSql.toString(), new RowMapper() {
+//
+//			public ArrestList mapRow(ResultSet rs, int rowNum) throws SQLException {
+//				ArrestList item = new ArrestList();
+//				item.setARREST_ID(rs.getInt("ARREST_ID"));
+//				item.setARREST_CODE(rs.getString("ARREST_CODE"));
+//				item.setOCCURRENCE_DATE(rs.getString("OCCURRENCE_DATE"));
+//				item.setTITLE_NAME_TH(rs.getString("TITLE_NAME_TH"));
+//				item.setTITLE_NAME_EN(rs.getString("TITLE_NAME_EN"));
+//				item.setTITLE_SHORT_NAME_TH(rs.getString("TITLE_SHORT_NAME_TH"));
+//				item.setTITLE_SHORT_NAME_EN(rs.getString("TITLE_SHORT_NAME_EN"));
+//				item.setFIRST_NAME(rs.getString("FIRST_NAME"));
+//				item.setLAST_NAME(rs.getString("LAST_NAME"));
+//
+////				item.setSUBSECTION_NAME(rs.getString("SUBSECTION_NAME"));
+////				item.setSUBSECTION_DESC(rs.getString("SUBSECTION_DESC"));
+////				item.setSECTION_ID(rs.getString("SECTION_ID"));
+////				item.setSECTION_NAME(rs.getString("SECTION_NAME"));
+////				item.setSECTION_DESC_1(rs.getString("SECTION_DESC_1"));
+////				item.setPENALTY_DESC(rs.getString("PENALTY_DESC"));
+//
+//
+//				item.setOFFICE_NAME(rs.getString("OFFICE_NAME"));
+//				item.setSUB_DISTRICT_NAME_TH(rs.getString("SUB_DISTRICT_NAME_TH"));
+//				item.setSUB_DISTRICT_NAME_EN(rs.getString("SUB_DISTRICT_NAME_EN"));
+//				item.setDISTRICT_NAME_TH(rs.getString("DISTRICT_NAME_TH"));
+//				item.setDISTRICT_NAME_EN(rs.getString("DISTRICT_NAME_EN"));
+//				item.setPROVINCE_NAME_TH(rs.getString("PROVINCE_NAME_TH"));
+//				item.setPROVINCE_NAME_EN(rs.getString("PROVINCE_NAME_EN"));
+//				item.setIS_LAWSUIT_COMPLETE(rs.getInt("IS_LAWSUIT_COMPLETE"));
+//
+//				item.setArrestMasGuiltbase(getArrestMasGuiltbase(rs.getString("GUILTBASE_ID")));
+//				item.setArrestLawbreaker(getArrestLawbreaker(rs.getInt("ARREST_ID")));
+//
+//				return item;
+//			}
+//		});
+	}
+	
+
+}

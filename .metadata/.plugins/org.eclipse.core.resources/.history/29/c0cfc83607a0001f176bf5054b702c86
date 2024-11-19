@@ -1,0 +1,5 @@
+package com.xcs.illegal.p2.dao;
+
+public interface LawbreakerDAO {
+
+}

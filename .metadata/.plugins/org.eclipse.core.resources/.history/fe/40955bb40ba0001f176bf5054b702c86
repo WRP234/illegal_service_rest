@@ -1,0 +1,35 @@
+package com.xcs.illegal.p2.dao;
+
+
+import org.springframework.transaction.annotation.Transactional;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Service;
+
+import com.xcs.illegal.p2.model.Lawbreaker;
+import com.xcs.illegal.p2.request.LawbreakerReq;
+
+@Service
+@Transactional
+public class LawbreakerDAOImpl extends LawbreakerExt implements LawbreakerDAO{
+	
+	private static final Logger log = LoggerFactory.getLogger(LawbreakerDAOImpl.class);
+	
+	@Override
+	public Lawbreaker LawbreakergetData(LawbreakerReq req) {
+		
+		StringBuilder sqlBuilder = new StringBuilder()
+				.append("SELECT * "+
+						"FROM ILLEGAL.APPLICATION_ARREST_LAWBREAKER aal");
+		sqlBuilder.append(" TRACK_NO = '"+req.getTRACK_NO()+"'");
+		
+		log.info("[SQL] : "+sqlBuilder.toString());
+		
+		return getJdbcTemplate().query(sqlBuilder.toString(), new ResultSetExtractor<>() {
+			
+		});
+	}
+	
+
+}
